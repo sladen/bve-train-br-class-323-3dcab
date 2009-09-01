@@ -1,0 +1,56 @@
+#!/usr/bin/make -f
+export DH_VERBOSE=1
+
+TARGET = $(CURDIR)/debian/bve-train-br-class-323-3dcab
+DOCTARGET = $(TARGET)/usr/share/doc/bve-train-br-class-323-3dcab
+
+# Standarised location
+BVETARGET = $(TARGET)/usr/share/games/bve
+
+# Components
+TRAINDIR = Train/Cl323\ Unrefurb_openbve
+
+# Renamed to something Nicer
+TRAINTARGET = $(BVETARGET)/Train/BR_Class_323
+
+build: build-stamp
+build-stamp:
+	dh_testdir
+	touch build-stamp
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp
+	rm -rf $(TARGET)
+	dh_clean 
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k 
+	dh_installdirs
+
+	# Change the Train name to something closer to the previous tarball
+	cp -a $(CURDIR)/$(TRAINDIR)/* $(TRAINTARGET)/
+	rm $(TRAINTARGET)/train.bmp
+	rm $(TRAINTARGET)/Readme_3DCab.txt
+
+binary-arch:
+	# Do nothing
+
+binary-indep: build install
+	dh_testdir
+	dh_testroot
+	dh_install
+	dh_installchangelogs
+	dh_installdocs
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep
+.PHONY: build clean binary-indep binary install

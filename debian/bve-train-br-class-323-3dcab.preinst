@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+case "$1" in
+    install|upgrade)
+        dpkg-divert \
+	    --package bve-train-br-class-323-3dcab \
+	    --divert /usr/share/games/bve/Train/BR_Class_323/train.dat.2dcab \
+	    --rename /usr/share/games/bve/Train/BR_Class_323/train.dat || true
+        ;;
+esac

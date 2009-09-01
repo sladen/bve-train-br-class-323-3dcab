@@ -1,0 +1,10 @@
+#! /bin/sh
+set -e
+case "$1" in
+    remove|purge)
+        dpkg-divert \
+	    --package bve-train-br-class-323-3dcab \
+	    --rename \
+	    --remove /usr/share/games/bve/Train/BR_Class_323/train.dat || true
+	;;
+esac
