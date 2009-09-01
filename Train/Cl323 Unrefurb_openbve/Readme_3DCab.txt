@@ -28,6 +28,11 @@ Please note that this 3D cab isn’t finished yet, and various details are missing
 
 More updates will follow later.
 
+Licence
+-------
+
+This add-on has been released into the Public Domain.
+
 ==============
 Anthony Bowden
 August, 2009
