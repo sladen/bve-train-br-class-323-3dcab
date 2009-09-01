@@ -1,0 +1,190 @@
+[object]
+states = ext_view\cab\class323_dmso_cab_interior_Common.csv
+
+[object]
+states = ext_view\cab\class323_dmso_cab_interior_Lights_On.csv,ext_view\cab\class323_dmso_cab_interior_Lights_Off.csv
+statefunction = !pluginstate[31]
+
+[object]
+states = ext_view\cab\power_handle.csv,ext_view\cab\power_handle_dark.csv
+position = -0.952, 2.0, 11.173
+statefunction = !pluginstate[31]
+rotatexfunction = if[powerNotch >= 1, -0.125 * powerNotch, 0.10 * brakeNotchLinear]
+rotatexdamping = 20, 0.8
+rotatezfunction = if[powerNotch >= 1, 0.05, 0]
+rotatezdamping = 20, 1
+
+[object]
+states = ext_view\cab\reverser_handle.csv,ext_view\cab\reverser_handle_dark.csv
+position = -1.030, 2.05, 11.075
+statefunction = !pluginstate[31]
+rotatexfunction = 0.5 * reverserNotch
+rotatexdamping = 20, 0.8
+
+[object]
+states = ext_view\cab\horn_lever.csv,ext_view\cab\horn_lever_dark.csv
+position = -0.07, 2.06, 11.234
+statefunction = !pluginstate[31]
+rotatexfunction = pluginstate[24] * 0.5
+rotatexdamping = 30, 0.8
+rotateyfunction = -0.3
+
+[object]
+states = ext_view\cab\proofhead_on.csv
+position = 0, 0, 0
+TextureShiftYFunction = pluginstate[22] * 0.25
+
+[object]
+states = ext_view\cab\prooftail_on.csv
+position = 0, 0, 0
+TextureShiftYFunction = pluginstate[23] * 0.5
+
+[object]
+states = ext_view\cab\switchhead.csv,ext_view\cab\switchhead_dark.csv
+position = 0, 0, 0
+statefunction = !pluginstate[31]
+TextureShiftYFunction = pluginstate[22] * 0.25
+
+[object]
+states = ext_view\cab\switchtail.csv,ext_view\cab\switchtail_dark.csv
+position = 0, 0, 0
+statefunction = !pluginstate[31]
+TextureShiftYFunction = pluginstate[23] * 0.5
+
+
+
+[object]
+states = ext_view\cab\linebatt_on.csv
+position = 0, 0, 0
+TextureShiftYFunction = pluginstate[31] * 0.5
+
+[object]
+states = ext_view\cab\cb_on.csv
+position = 0, 0, 0
+TextureShiftYFunction = pluginstate[33] * 0.5
+
+[object]
+states = ext_view\cab\haz_on.csv
+position = 0, 0, 0
+TextureShiftYFunction = pluginstate[14] * 0.5
+
+[object]
+states = ext_view\cab\aws_sunflower.csv,ext_view\cab\aws_sunflower_dark.csv
+position = 0, 0, 0
+statefunction = if[pluginstate[31], !pluginstate[7], 1]
+
+[object]
+states = ext_view\cab\aws_sunflower_black.csv
+position = 0, 0, 0
+statefunction = !pluginstate[6]
+
+[object]
+states = ext_view\cab\aws_button.csv
+position = 0, 0, 0
+translatezfunction = pluginstate[8] * 0.012
+translateydirection = 0, -1, 0
+translateyfunction = pluginstate[8] * 0.0063
+
+[object]
+states = ext_view\cab\dra.csv
+position = 0, 0, 0
+TextureShiftYFunction = pluginstate[13] * 0.5
+
+[object]
+states = ext_view\cab\interlock.csv
+position = 0, 0, 0
+TextureShiftYFunction = pluginstate[14] * 0.5
+
+[object]
+states = ext_view\cab\tpws_brake.csv
+position = 0, 0, 0
+statefunction = !pluginstate[9]
+
+[object]
+states = ext_view\cab\tpws_isol.csv
+position = 0, 0, 0
+statefunction = !pluginstate[10]
+
+[object]
+states = ext_view\cab\tpws_over.csv
+position = 0, 0, 0
+statefunction = !pluginstate[11]
+
+[object]
+states = ext_view\cab\radio.csv
+position = 0, 0, 0
+statefunction = !pluginstate[31]
+
+[object]
+states = ext_view\cab\destination_display_1a.csv
+position = 0, 0, 0
+statefunction = !pluginstate[31]
+
+[object]
+states = ext_view\cab\destination_display_1a.csv
+position = 0, 0, 0
+statefunction = !pluginstate[31]
+
+
+
+;brake gauge
+[object]
+states = ext_view\cab\brake_needle.csv, ext_view\cab\brake_needle_dark.csv
+statefunction = !pluginstate[31]
+position = -0.741, 2.263, 11.462
+rotatexdirection = -1, 0, 0
+rotatexfunction = 1.12 + mainReservoir * 0.0000051
+rotateyfunction = -1.11
+rotatezfunction = -1.57
+
+[object]
+states = ext_view\cab\brake_needle.csv, ext_view\cab\brake_needle_dark.csv
+statefunction = !pluginstate[31]
+position = -0.731, 2.263, 11.462
+rotatexdirection = 1, 0, 0
+rotatexfunction = -1.52 + brakeCylinder * 0.0000053
+rotateyfunction = -1.11
+rotatezfunction = -1.57
+
+[object]
+states = ext_view\cab\speedometer_needle.csv, ext_view\cab\speedometer_needle_dark.csv
+statefunction = !pluginstate[31]
+position = -0.5505, 2.232, 11.452
+rotatexdirection = -1, 0, 0
+rotatexfunction = -3.678 + abs[speedometer] * 0.0945
+rotateyfunction = -1.11
+rotatezfunction = -1.57
+
+
+[object]
+states = ext_view\cab\ext_headlight_1.csv, ext_view\cab\ext_headlight_1a.csv, ext_view\cab\ext_headlight_1b.csv
+position = 0, 0, 0
+statefunction = if[pluginstate[31], if[pluginstate[20] > 0, pluginstate[20] - 1, -1], -1]
+
+[object]
+states = ext_view\cab\ext_taillight_1.csv
+position = 0, 0, 0
+statefunction = if[pluginstate[31], if[pluginstate[21] > 0, 0, -1], -1]
+
+
+[object]
+states = ext_view\class323_dmso_wiper_l_2.csv
+position = -0.56, 2.27, 23.33
+rotatezfunction = if[pluginstate[198] > 0, power[1 - abs[cos[time]], 0.5] * 1.3, value]
+
+[object]
+states = ext_view\class323_dmso_wiper_l_2a.csv
+position = -0.55, 2.28, 23.33
+translatexfunction = if[pluginstate[198] > 0, -power[1 - abs[cos[time]], 0.5] * 0.82, value]
+translateyfunction = if[pluginstate[198] > 0, power[sin[time * 2], 2] * 0.13, value]
+
+[object]
+states = ext_view\class323_dmso_wiper_r_2.csv
+position = 0.56, 2.27, 23.33
+rotatezfunction = if[pluginstate[198] > 0, -power[1 - abs[cos[time]], 0.5] * 1.3, value]
+
+[object]
+states = ext_view\class323_dmso_wiper_r_2a.csv
+position = 0.55, 2.28, 23.33
+translatexfunction = if[pluginstate[198] > 0, power[1 - abs[cos[time]], 0.5] * 0.82, value]
+translateyfunction = if[pluginstate[198] > 0, power[sin[time * 2], 2] * 0.13, value]

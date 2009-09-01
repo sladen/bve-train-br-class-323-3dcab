@@ -1,0 +1,16 @@
+﻿CreateMeshBuilder
+AddVertex,-0.882,2.276,11.466
+AddVertex,-0.804,2.276,11.468
+AddVertex,-0.804,2.221,11.443
+AddVertex,-0.882,2.221,11.439
+AddFace,0,1,2,3
+
+LoadTexture,switchhead.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 0.25
+SetTextureCoordinates,3, 0, 0.25
+SetDecalTransparentColor,0,0,255
+;SetEmissiveColor,60,60,60
+
+TranslateAll,0,0,-0.001

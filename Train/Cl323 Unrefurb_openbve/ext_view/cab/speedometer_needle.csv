@@ -1,0 +1,17 @@
+CreateMeshBuilder
+AddVertex,-0.003,0.04,0
+AddVertex,0.003,0.04,0
+AddVertex,0.003,0.00,0
+AddVertex,-0.003,0.00,0
+AddFace,0,1,2,3
+
+LoadTexture,speed.png,speed_n.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetColor,210,210,210
+SetDecalTransparentColor,0,0,0
+SetEmissiveColor,200,200,200
+
+RotateAll,0,1,0,90

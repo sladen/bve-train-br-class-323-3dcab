@@ -1,0 +1,13 @@
+CreateMeshBuilder
+AddVertex,-0.6185,2.294,11.484
+AddVertex,-0.482,2.294,11.484
+AddVertex,-0.482,2.170,11.424
+AddVertex,-0.6185,2.170,11.424
+AddFace,0,1,2,3
+
+LoadTexture,speedometer_back.png
+SetTextureCoordinates,0, 0.001, 0.001
+SetTextureCoordinates,1, 0.999, 0.001
+SetTextureCoordinates,2, 0.999, 0.999
+SetTextureCoordinates,3, 0.001, 0.999
+SetDecalTransparentColor,255,0,255

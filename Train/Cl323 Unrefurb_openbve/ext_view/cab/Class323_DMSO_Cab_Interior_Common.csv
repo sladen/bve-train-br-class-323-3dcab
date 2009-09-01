@@ -1,0 +1,291 @@
+CreateMeshBuilder
+AddVertex,-1.185, 3.37, -0.4
+AddVertex,-1.293, 1.85, -0.4
+AddVertex,-1.235, 3.37, 0.4
+AddVertex,-1.343, 1.85, 0.4
+AddFace,0,2,3,1
+SetColor,255,250,250,40
+Translate,0,0,-10.42
+Rotate,0,1,0,180
+GenerateNormals
+
+LoadTexture,..\Class323_Window_Internal.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0.5, 0
+SetTextureCoordinates,3, 0.5, 1
+
+CreateMeshBuilder
+AddVertex,1.185, 3.37, -0.4
+AddVertex,1.293, 1.85, -0.4
+AddVertex,1.235, 3.37, 0.4
+AddVertex,1.343, 1.85, 0.4
+AddFace,1,3,2,0
+SetColor,255,250,250,40
+Translate,0,0,-10.42
+Rotate,0,1,0,180
+GenerateNormals
+
+LoadTexture,..\Class323_Window_Internal.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0.5, 0
+SetTextureCoordinates,3, 0.5, 1
+
+
+
+
+
+
+
+;Front windows
+CreateMeshBuilder
+AddVertex,-0.929, 3.2, 11.42
+AddVertex,-0.928, 3.2, 11.47
+AddVertex,-0.961, 2.384, 11.48
+AddVertex,-0.961, 2.380, 11.53
+AddVertex,-0.959, 2.375, 11.48
+AddVertex,-0.959, 2.371, 11.53
+AddVertex,-0.954, 2.370, 11.48
+AddVertex,-0.954, 2.366, 11.53
+AddVertex,-0.947, 2.368, 11.48
+AddVertex,-0.947, 2.364, 11.53
+
+AddVertex,-0.078, 2.368, 11.492
+AddVertex,-0.078, 2.364, 11.542
+AddVertex,-0.071, 2.370, 11.492
+AddVertex,-0.071, 2.366, 11.542
+AddVertex,-0.066, 2.375, 11.492
+AddVertex,-0.066, 2.371, 11.542
+AddVertex,-0.064, 2.384, 11.492
+AddVertex,-0.064, 2.378, 11.542
+AddVertex,-0.064, 3.2, 11.432
+AddVertex,-0.064, 3.2, 11.482
+
+AddVertex,-0.933, 3.2, 11.42
+AddVertex,-0.97, 2.36, 11.48
+AddVertex,-0.06, 2.36, 11.492
+AddVertex,-0.060, 3.2, 11.432
+;-
+AddVertex,0.929, 3.2, 11.42
+AddVertex,0.928, 3.2, 11.47
+AddVertex,0.961, 2.384, 11.48
+AddVertex,0.961, 2.380, 11.53
+AddVertex,0.959, 2.375, 11.48
+AddVertex,0.959, 2.371, 11.53
+AddVertex,0.954, 2.370, 11.48
+AddVertex,0.954, 2.366, 11.53
+AddVertex,0.947, 2.368, 11.48
+AddVertex,0.947, 2.364, 11.53
+
+AddVertex,0.078, 2.368, 11.492
+AddVertex,0.078, 2.364, 11.542
+AddVertex,0.071, 2.370, 11.492
+AddVertex,0.071, 2.366, 11.542
+AddVertex,0.066, 2.375, 11.492
+AddVertex,0.066, 2.371, 11.542
+AddVertex,0.064, 2.384, 11.492
+AddVertex,0.064, 2.378, 11.542
+AddVertex,0.064, 3.2, 11.432
+AddVertex,0.064, 3.2, 11.482
+
+AddVertex,0.933, 3.2, 11.42
+AddVertex,0.97, 2.36, 11.48
+AddVertex,0.06, 2.36, 11.492
+AddVertex,0.060, 3.2, 11.432
+
+AddFace,0,1,3,2
+AddFace,2,3,5,4
+AddFace,4,5,7,6
+AddFace,6,7,9,8
+AddFace,8,9,11,10
+
+AddFace,10,11,13,12
+AddFace,12,13,15,14
+AddFace,14,15,17,16
+AddFace,16,17,19,18
+
+AddFace,20,0,2,21
+AddFace,21,2,4
+AddFace,21,4,6
+AddFace,21,6,8
+AddFace,21,8,10,22
+AddFace,22,10,12
+AddFace,22,12,14
+AddFace,22,14,16
+AddFace,23,22,16,18
+;-
+AddFace,26,27,25,24
+AddFace,28,29,27,26
+AddFace,30,31,29,28
+AddFace,32,33,31,30
+AddFace,34,35,33,32
+
+AddFace,36,37,35,34
+AddFace,38,39,37,36
+AddFace,40,41,39,38
+AddFace,42,43,41,40
+
+AddFace,45,26,24,44
+AddFace,28,26,45
+AddFace,30,28,45
+AddFace,32,30,45
+AddFace,46,34,32,45
+AddFace,36,34,46
+AddFace,38,36,46
+AddFace,40,38,46
+AddFace,42,40,46,47
+GenerateNormals
+
+LoadTexture,Class323_Cab_Window_Surround.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 0, 1
+SetTextureCoordinates,3, 1, 1
+SetTextureCoordinates,4, 0, 2
+SetTextureCoordinates,5, 1, 2
+SetTextureCoordinates,6, 0, 3
+SetTextureCoordinates,7, 1, 3
+SetTextureCoordinates,8, 0, 4
+SetTextureCoordinates,9, 1, 4
+SetTextureCoordinates,10, 0, 5
+SetTextureCoordinates,11, 1, 5
+SetTextureCoordinates,12, 0, 6
+SetTextureCoordinates,13, 1, 6
+SetTextureCoordinates,14, 0, 7
+SetTextureCoordinates,15, 1, 7
+SetTextureCoordinates,16, 0, 8
+SetTextureCoordinates,17, 1, 8
+SetTextureCoordinates,18, 0, 9
+SetTextureCoordinates,19, 1, 9
+
+SetTextureCoordinates,20, 0.2, 0
+SetTextureCoordinates,21, 0.2, 2.5
+SetTextureCoordinates,22, 0.2, 6.5
+SetTextureCoordinates,23, 0.2, 1
+;-
+SetTextureCoordinates,24, 0, 0
+SetTextureCoordinates,25, 1, 0
+SetTextureCoordinates,26, 0, 1
+SetTextureCoordinates,27, 1, 1
+SetTextureCoordinates,28, 0, 2
+SetTextureCoordinates,29, 1, 2
+SetTextureCoordinates,30, 0, 3
+SetTextureCoordinates,31, 1, 3
+SetTextureCoordinates,32, 0, 4
+SetTextureCoordinates,33, 1, 4
+SetTextureCoordinates,34, 0, 5
+SetTextureCoordinates,35, 1, 5
+SetTextureCoordinates,36, 0, 6
+SetTextureCoordinates,37, 1, 6
+SetTextureCoordinates,38, 0, 7
+SetTextureCoordinates,39, 1, 7
+SetTextureCoordinates,40, 0, 8
+SetTextureCoordinates,41, 1, 8
+SetTextureCoordinates,42, 0, 9
+SetTextureCoordinates,43, 1, 9
+
+SetTextureCoordinates,44, 0.2, 0
+SetTextureCoordinates,45, 0.2, 2.5
+SetTextureCoordinates,46, 0.2, 6.5
+SetTextureCoordinates,47, 0.2, 1
+
+TranslateAll,0,0,0.09
+
+CreateMeshBuilder
+Cylinder, 4, 0.058, 0.058, 0.6
+Translate,-0.600, 1.45, 10.6
+SetColor,100,100,100
+GenerateNormals
+
+LoadTexture,..\Gradient.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0.5, 0
+SetTextureCoordinates,3, 0.5, 1
+SetTextureCoordinates,4, 0, 0
+SetTextureCoordinates,5, 0, 1
+SetTextureCoordinates,6, 0.5, 0
+SetTextureCoordinates,7, 0.5, 1
+
+CreateMeshBuilder
+Cylinder, 4, 0.06, 0.06, 0.45
+Translate,-0.600, 1.35, 10.6
+GenerateNormals
+
+LoadTexture,Class323_Desk_5.png
+SetTextureCoordinates,0, 0.9, 0.3
+SetTextureCoordinates,1, 0.9, 1
+SetTextureCoordinates,2, 0.99, 0.3
+SetTextureCoordinates,3, 0.99, 1
+SetTextureCoordinates,4, 0.9, 0.3
+SetTextureCoordinates,5, 0.9, 1
+SetTextureCoordinates,6, 0.99, 0.3
+SetTextureCoordinates,7, 0.99, 1
+
+
+
+
+
+CreateMeshBuilder
+Cylinder, 4, 0.058, 0.058, 0.6
+Translate,0.600, 1.45, 10.4
+SetColor,100,100,100
+GenerateNormals
+
+LoadTexture,..\Gradient.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0.5, 0
+SetTextureCoordinates,3, 0.5, 1
+SetTextureCoordinates,4, 0, 0
+SetTextureCoordinates,5, 0, 1
+SetTextureCoordinates,6, 0.5, 0
+SetTextureCoordinates,7, 0.5, 1
+
+CreateMeshBuilder
+Cylinder, 4, 0.06, 0.06, 0.45
+Translate,0.600, 1.35, 10.4
+GenerateNormals
+
+LoadTexture,Class323_Desk_5.png
+SetTextureCoordinates,0, 0.9, 0.3
+SetTextureCoordinates,1, 0.9, 1
+SetTextureCoordinates,2, 0.99, 0.3
+SetTextureCoordinates,3, 0.99, 1
+SetTextureCoordinates,4, 0.9, 0.3
+SetTextureCoordinates,5, 0.9, 1
+SetTextureCoordinates,6, 0.99, 0.3
+SetTextureCoordinates,7, 0.99, 1
+
+
+
+
+CreateMeshBuilder
+AddVertex,-0.789,2.310,11.486
+AddVertex,-0.687,2.310,11.491
+AddVertex,-0.687,2.217,11.446
+AddVertex,-0.789,2.217,11.441
+AddFace,0,1,2,3
+
+LoadTexture,brake_back.png
+SetTextureCoordinates,0, 0.001, 0.001
+SetTextureCoordinates,1, 0.999, 0.001
+SetTextureCoordinates,2, 0.999, 0.999
+SetTextureCoordinates,3, 0.001, 0.999
+SetDecalTransparentColor,255,0,255
+
+
+CreateMeshBuilder
+AddVertex,-0.6185,2.294,11.484
+AddVertex,-0.482,2.294,11.484
+AddVertex,-0.482,2.170,11.424
+AddVertex,-0.6185,2.170,11.424
+AddFace,0,1,2,3
+
+LoadTexture,speedometer_back.png
+SetTextureCoordinates,0, 0.001, 0.001
+SetTextureCoordinates,1, 0.999, 0.001
+SetTextureCoordinates,2, 0.999, 0.999
+SetTextureCoordinates,3, 0.001, 0.999
+SetDecalTransparentColor,255,0,255

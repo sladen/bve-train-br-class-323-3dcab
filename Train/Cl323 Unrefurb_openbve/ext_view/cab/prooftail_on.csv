@@ -1,0 +1,17 @@
+﻿CreateMeshBuilder
+AddVertex,-0.949,2.308,11.478
+AddVertex,-0.799,2.308,11.485
+AddVertex,-0.799,2.291,11.477
+AddVertex,-0.949,2.291,11.469
+AddFace,0,1,2,3
+
+LoadTexture,prooftail.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 0.5
+SetTextureCoordinates,3, 0, 0.5
+SetDecalTransparentColor,0,0,255
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive
+
+TranslateAll,0,0,-0.001

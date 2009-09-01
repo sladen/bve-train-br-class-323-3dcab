@@ -1,0 +1,45 @@
+CreateMeshBuilder
+Cylinder,10,0.01,0.01,0.015
+Rotate,1,0,0,-63
+Translate,-0.343,2.180,11.420
+
+LoadTexture,Class323_Handle_1.png
+SetTextureCoordinates,0, 0.0, 0
+SetTextureCoordinates,1, 0.0, 1
+SetTextureCoordinates,2, 0.2, 0
+SetTextureCoordinates,3, 0.2, 1
+SetTextureCoordinates,4, 0.4, 0
+SetTextureCoordinates,5, 0.4, 1
+SetTextureCoordinates,6, 0.6, 0
+SetTextureCoordinates,7, 0.6, 1
+SetTextureCoordinates,8, 0.8, 0
+SetTextureCoordinates,9, 0.8, 1
+SetTextureCoordinates,10, 0.9, 0
+SetTextureCoordinates,11, 0.9, 1
+SetTextureCoordinates,12, 0.95, 0
+SetTextureCoordinates,13, 0.95, 1
+SetTextureCoordinates,14, 0.96, 0
+SetTextureCoordinates,15, 0.96, 1
+SetTextureCoordinates,16, 0.98, 0
+SetTextureCoordinates,17, 0.98, 1
+SetTextureCoordinates,18, 1.00, 0
+SetTextureCoordinates,19, 1.00, 1
+SetColor,220,210,230
+SetEmissiveColor,60,60,60
+
+CreateMeshBuilder
+AddVertex,-0.009,0.008,0.0095
+AddVertex,0.009,0.008,0.0095
+AddVertex,0.009,0.008,-0.0095
+AddVertex,-0.009,0.008,-0.0095
+Rotate,1,0,0,-63
+Translate,-0.343,2.180,11.420
+AddFace,0,1,2,3
+
+LoadTexture,aws_reset.png
+SetTextureCoordinates,0, 0.001, 0.001
+SetTextureCoordinates,1, 0.999, 0.001
+SetTextureCoordinates,2, 0.999, 0.999
+SetTextureCoordinates,3, 0.001, 0.999
+SetDecalTransparentColor,0,0,255
+SetEmissiveColor,60,60,60

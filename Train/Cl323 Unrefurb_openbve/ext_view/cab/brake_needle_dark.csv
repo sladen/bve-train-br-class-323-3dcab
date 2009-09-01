@@ -1,0 +1,16 @@
+CreateMeshBuilder
+AddVertex,-0.0036,0.025,0
+AddVertex,0.0036,0.025,0
+AddVertex,0.0036,-0.007,0
+AddVertex,-0.0036,-0.007,0
+AddFace2,0,1,2,3
+SetColor,210,210,210
+
+LoadTexture,prs_up.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0
+
+RotateAll,0,1,0,90

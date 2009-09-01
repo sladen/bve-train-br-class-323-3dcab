@@ -1,0 +1,15 @@
+CreateMeshBuilder
+AddVertex,-0.277,2.2995,11.487
+AddVertex,-0.246,2.2995,11.487
+AddVertex,-0.246,2.283,11.478
+AddVertex,-0.277,2.283,11.478
+AddFace,0,1,2,3
+
+LoadTexture,haz_on.png
+SetTextureCoordinates,0, 0.001, 0.001
+SetTextureCoordinates,1, 0.999, 0.001
+SetTextureCoordinates,2, 0.999, 0.499
+SetTextureCoordinates,3, 0.001, 0.499
+SetDecalTransparentColor,0,0,255
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive

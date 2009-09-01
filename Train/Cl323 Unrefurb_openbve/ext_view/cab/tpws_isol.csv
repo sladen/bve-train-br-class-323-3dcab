@@ -1,0 +1,15 @@
+﻿CreateMeshBuilder
+AddVertex,-0.074, 2.310, 11.322
+AddVertex,-0.071, 2.310, 11.303
+AddVertex,-0.076, 2.290, 11.303
+AddVertex,-0.079, 2.290, 11.322
+AddFace,0,1,2,3
+
+LoadTexture,tpws_isol.png
+SetTextureCoordinates,0, 0.001, 0.001
+SetTextureCoordinates,1, 0.999, 0.001
+SetTextureCoordinates,2, 0.999, 0.999
+SetTextureCoordinates,3, 0.001, 0.999
+SetEmissiveColor,255,255,255
+SetDecalTransparentColor,0,0,255
+SetBlendMode,Additive

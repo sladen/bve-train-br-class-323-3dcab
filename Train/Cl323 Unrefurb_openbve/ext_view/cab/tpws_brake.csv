@@ -1,0 +1,15 @@
+﻿CreateMeshBuilder
+AddVertex,-0.080, 2.311, 11.355
+AddVertex,-0.076, 2.311, 11.334
+AddVertex,-0.081, 2.290, 11.334
+AddVertex,-0.085, 2.290, 11.355
+AddFace,0,1,2,3
+
+LoadTexture,tpws_brake.png
+SetTextureCoordinates,0, 0.001, 0.001
+SetTextureCoordinates,1, 0.999, 0.001
+SetTextureCoordinates,2, 0.999, 0.999
+SetTextureCoordinates,3, 0.001, 0.999
+SetEmissiveColor,255,255,255
+SetDecalTransparentColor,0,0,255
+SetBlendMode,Additive

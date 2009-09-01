@@ -1,0 +1,14 @@
+CreateMeshBuilder
+AddVertex,-0.448,2.206,11.439
+AddVertex,-0.405,2.206,11.439
+AddVertex,-0.405,2.164,11.419
+AddVertex,-0.448,2.164,11.419
+AddFace,0,1,2,3
+
+LoadTexture,aws_sunflower.png
+SetTextureCoordinates,0, 0.001, 0.001
+SetTextureCoordinates,1, 0.999, 0.001
+SetTextureCoordinates,2, 0.999, 0.999
+SetTextureCoordinates,3, 0.001, 0.999
+SetDecalTransparentColor,0,0,255
+SetColor,10,10,10

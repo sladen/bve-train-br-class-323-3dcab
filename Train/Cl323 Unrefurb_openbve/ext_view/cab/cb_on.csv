@@ -1,0 +1,17 @@
+CreateMeshBuilder
+AddVertex,-0.875,2.179,11.421
+AddVertex,-0.811,2.179,11.422
+AddVertex,-0.811,2.147,11.408
+AddVertex,-0.875,2.147,11.407
+AddFace,0,1,2,3
+
+LoadTexture,cb_on.png
+SetTextureCoordinates,0, 0.001, 0.001
+SetTextureCoordinates,1, 0.999, 0.001
+SetTextureCoordinates,2, 0.999, 0.499
+SetTextureCoordinates,3, 0.001, 0.499
+SetDecalTransparentColor,0,0,255
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive
+
+TranslateAll,0,0,-0.001

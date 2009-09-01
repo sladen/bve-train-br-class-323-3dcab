@@ -1,0 +1,15 @@
+CreateMeshBuilder
+AddVertex,0.143, 3.334, 11.408
+AddVertex,0.212, 3.334, 11.408
+AddVertex,0.212, 3.213, 11.408
+AddVertex,0.143, 3.213, 11.408
+AddFace,0,1,2,3
+
+LoadTexture,Class323_DestinationDisplay_1a.png
+SetTextureCoordinates,0, 0.001, 0.001
+SetTextureCoordinates,1, 0.999, 0.001
+SetTextureCoordinates,2, 0.999, 0.999
+SetTextureCoordinates,3, 0.001, 0.999
+SetEmissiveColor,255,255,255
+SetDecalTransparentColor,0,0,255
+SetBlendMode,Additive
