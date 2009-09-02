@@ -4,7 +4,6 @@ Priority: optional
 Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
 XSBC-Original-Maintainer: Paul Sladen <ubuntu@paul.sladen.org>
 Build-Depends: debhelper (>= 5)
-Build-Depends-Indep: vorbis-tools
 Standards-Version: 3.8.0
 Vcs-Browser: http://github.com/sladen/bve-train-br-class-323-3dcab/tree/debian
 Vcs-Git: http://github.com/sladen/bve-train-br-class-323-3dcab.git
@@ -13,7 +12,7 @@ Homepage: http://railsimroutes.net/blog/?p=886
 Package: bve-train-br-class-323-3dcab
 Architecture: all
 Provides: bve-train-3dcab, bve-train
-Depends: bve-train-br-class-323 
+Depends: bve-train-br-class-323
 Enhances: bve-train-br-class-323
 Recommends: openbve (>= 1.1.1.0), bve-engine
 Description: British Rail Class 323 EMU train 3D cab (for OpenBVE rail simulator)

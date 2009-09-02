@@ -9,6 +9,7 @@ BVETARGET = $(TARGET)/usr/share/games/bve
 
 # Components
 TRAINDIR = Train/Cl323\ Unrefurb_openbve
+README = Readme_3DCab.txt
 
 # Renamed to something Nicer
 TRAINTARGET = $(BVETARGET)/Train/BR_Class_323
@@ -31,10 +32,13 @@ install: build
 	dh_clean -k 
 	dh_installdirs
 
-	# Change the Train name to something closer to the previous tarball
+	# Install 3D cab add-on files to matching directory
 	cp -a $(CURDIR)/$(TRAINDIR)/* $(TRAINTARGET)/
+	# Delete duplicate files
 	rm $(TRAINTARGET)/train.bmp
 	rm $(TRAINTARGET)/Readme_3DCab.txt
+	# Format the fancy quotes into something standard
+	iconv -f WINDOWS-1251 -t UTF-8 $(CURDIR)/$(TRAINDIR)/$(README) > $(DOCTARGET)/$(README)
 
 binary-arch:
 	# Do nothing
