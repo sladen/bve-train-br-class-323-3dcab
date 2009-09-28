@@ -7,9 +7,8 @@ AddFace,0,2,3,1
 SetColor,255,250,250,40
 Translate,0,0,-10.42
 Rotate,0,1,0,180
-GenerateNormals
 
-LoadTexture,..\Class323_Window_Internal.png
+LoadTexture,..\ext_view\class323_window_internal.png
 SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 0, 1
 SetTextureCoordinates,2, 0.5, 0
@@ -24,9 +23,8 @@ AddFace,1,3,2,0
 SetColor,255,250,250,40
 Translate,0,0,-10.42
 Rotate,0,1,0,180
-GenerateNormals
 
-LoadTexture,..\Class323_Window_Internal.png
+LoadTexture,..\ext_view\class323_window_internal.png
 SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 0, 1
 SetTextureCoordinates,2, 0.5, 0
@@ -135,9 +133,8 @@ AddFace,36,34,46
 AddFace,38,36,46
 AddFace,40,38,46
 AddFace,42,40,46,47
-GenerateNormals
 
-LoadTexture,Class323_Cab_Window_Surround.png
+LoadTexture,class323_cab_window_surround.png
 SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 1, 0
 SetTextureCoordinates,2, 0, 1
@@ -196,9 +193,8 @@ CreateMeshBuilder
 Cylinder, 4, 0.058, 0.058, 0.6
 Translate,-0.600, 1.45, 10.6
 SetColor,100,100,100
-GenerateNormals
 
-LoadTexture,..\Gradient.png
+LoadTexture,..\ext_view\gradient.png
 SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 0, 1
 SetTextureCoordinates,2, 0.5, 0
@@ -211,9 +207,8 @@ SetTextureCoordinates,7, 0.5, 1
 CreateMeshBuilder
 Cylinder, 4, 0.06, 0.06, 0.45
 Translate,-0.600, 1.35, 10.6
-GenerateNormals
 
-LoadTexture,Class323_Desk_5.png
+LoadTexture,class323_desk_5.png
 SetTextureCoordinates,0, 0.9, 0.3
 SetTextureCoordinates,1, 0.9, 1
 SetTextureCoordinates,2, 0.99, 0.3
@@ -231,9 +226,8 @@ CreateMeshBuilder
 Cylinder, 4, 0.058, 0.058, 0.6
 Translate,0.600, 1.45, 10.4
 SetColor,100,100,100
-GenerateNormals
 
-LoadTexture,..\Gradient.png
+LoadTexture,..\ext_view\gradient.png
 SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 0, 1
 SetTextureCoordinates,2, 0.5, 0
@@ -246,9 +240,8 @@ SetTextureCoordinates,7, 0.5, 1
 CreateMeshBuilder
 Cylinder, 4, 0.06, 0.06, 0.45
 Translate,0.600, 1.35, 10.4
-GenerateNormals
 
-LoadTexture,Class323_Desk_5.png
+LoadTexture,class323_desk_5.png
 SetTextureCoordinates,0, 0.9, 0.3
 SetTextureCoordinates,1, 0.9, 1
 SetTextureCoordinates,2, 0.99, 0.3
@@ -262,10 +255,10 @@ SetTextureCoordinates,7, 0.99, 1
 
 
 CreateMeshBuilder
-AddVertex,-0.789,2.310,11.486
-AddVertex,-0.687,2.310,11.491
-AddVertex,-0.687,2.217,11.446
-AddVertex,-0.789,2.217,11.441
+AddVertex,-0.792,2.310,11.486
+AddVertex,-0.690,2.310,11.491
+AddVertex,-0.690,2.217,11.446
+AddVertex,-0.792,2.217,11.441
 AddFace,0,1,2,3
 
 LoadTexture,brake_back.png

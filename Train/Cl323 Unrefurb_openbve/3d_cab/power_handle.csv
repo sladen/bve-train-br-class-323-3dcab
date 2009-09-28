@@ -3,7 +3,7 @@ Cylinder,6,0.007,0.007,0.14
 Translate,0,-0.02,0
 Rotate,0,1,0,180
 
-LoadTexture,Class323_Handle_1.png
+LoadTexture,class323_handle_1.png
 SetTextureCoordinates,0, 0.0, 0
 SetTextureCoordinates,1, 0.0, 2
 SetTextureCoordinates,2, 0.3, 0
@@ -165,7 +165,7 @@ AddFace,59,50,60,69
 AddFace,9,8,7,6,5,4,3,2,1,0
 Scale,1,1,1.1
 
-LoadTexture,Class323_Power_Handle.png
+LoadTexture,class323_power_handle.png
 SetTextureCoordinates,0, 0.31, 0.0
 SetTextureCoordinates,1, 0.28, 0.0
 SetTextureCoordinates,2, 0.20, 0.0
@@ -369,7 +369,7 @@ AddFace,49,40,50,59
 AddFace,9,8,7,6,5,4,3,2,1,0
 Scale,1,1,1.2
 
-LoadTexture,Class323_Power_Handle.png
+LoadTexture,class323_power_handle.png
 SetTextureCoordinates,0, 0.99, 0.00
 SetTextureCoordinates,1, 0.99, 0.10
 SetTextureCoordinates,2, 0.99, 0.20
@@ -473,7 +473,7 @@ AddFace,9,0,10,19
 AddFace,9,8,7,6,5,4,3,2,1,0
 Scale,1,1,1.2
 
-LoadTexture,Class323_Handle_1.png
+LoadTexture,class323_handle_1.png
 SetTextureCoordinates,0, 0.0, 0
 SetTextureCoordinates,1, 0.0, 0
 SetTextureCoordinates,2, 0.3, 0

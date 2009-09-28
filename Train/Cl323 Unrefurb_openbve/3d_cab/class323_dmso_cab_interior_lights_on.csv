@@ -15,9 +15,8 @@ AddFace,4,5,7,6
 SetColor,60,55,50
 SetEmissiveColor,100,95,90
 Rotate,0,1,0,180
-GenerateNormals
 
-LoadTexture,..\centro\Class323_Interior_Floor.png
+LoadTexture,..\ext_view\centro\class323_interior_Floor.png
 SetTextureCoordinates,0, 8.75, 0
 SetTextureCoordinates,1, 8.75, 1
 SetTextureCoordinates,2, 9, 0
@@ -47,9 +46,8 @@ SetColor,25,23,15
 SetEmissiveColor,25,23,15
 Translate,0,0,0.08
 Rotate,0,1,0,180
-GenerateNormals
 
-;Cab Doors
+;Cab doors
 CreateMeshBuilder
 AddVertex,-1.23, 3.37, 0.459
 AddVertex,-1.174, 3.37, -0.459
@@ -77,9 +75,8 @@ AddFace,14,15,13,12
 SetEmissiveColor,225,220,200
 Translate,0,0,-10.42
 Rotate,0,1,0,180
-GenerateNormals
 
-LoadTexture,..\centro\Class323_Door_Interior_1.png
+LoadTexture,..\ext_view\centro\class323_door_interior_1.png
 SetTextureCoordinates,0, 0.985, 0.006
 SetTextureCoordinates,1, 0.009, 0.006
 SetTextureCoordinates,2, 0.985, 0.688
@@ -125,9 +122,8 @@ AddFace,12,13,15,14
 SetEmissiveColor,225,220,200
 Translate,0,0,-10.42
 Rotate,0,1,0,180
-GenerateNormals
 
-LoadTexture,..\centro\Class323_Door_Interior_1.png
+LoadTexture,..\ext_view\centro\class323_door_interior_1.png
 SetTextureCoordinates,0, 0.985, 0.006
 SetTextureCoordinates,1, 0.009, 0.006
 SetTextureCoordinates,2, 0.985, 0.688
@@ -154,7 +150,7 @@ SetDecalTransparentColor,0,0,0
 
 
 
-;Desk Left
+;desk Left
 CreateMeshBuilder
 AddVertex,-0.984, 2.363, 11.485
 AddVertex,-0.664, 2.363, 11.495
@@ -186,9 +182,8 @@ AddFace,3,13,14,5
 AddFace,5,14,15,7
 AddFace,7,15,16,9
 AddFace,9,16,17,11
-GenerateNormals
 
-LoadTexture,Class323_Desk_1.png
+LoadTexture,class323_desk_1.png
 SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 0.36, 0
 SetTextureCoordinates,2, 0, 0.06
@@ -243,9 +238,8 @@ AddFace,0,9,10,11,12
 AddFace,15,14,20,19
 AddFace,16,15,19,18
 AddFace,17,16,18
-GenerateNormals
 
-LoadTexture,Class323_Desk_3.png
+LoadTexture,class323_desk_3.png
 SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 0.82, 0
 SetTextureCoordinates,2, 0.83, 0
@@ -349,9 +343,8 @@ AddFace,32,33,37,36
 AddFace,34,35,39,38
 AddFace,35,36,40,39
 AddFace,36,37,41,40
-GenerateNormals
 
-LoadTexture,Class323_Desk_2.png
+LoadTexture,class323_desk_2.png
 SetTextureCoordinates,0, 5.5, 0.38
 SetTextureCoordinates,1, 5.05, 0.38
 SetTextureCoordinates,2, 5, 0.38
@@ -409,16 +402,15 @@ AddVertex,-0.915, 2.082, 11.16
 AddVertex,-0.915, 2.082, 10.91
 AddVertex,-1.15, 2.082, 10.91
 AddFace,0,1,2,3
-GenerateNormals
 
-LoadTexture,Class323_Handle_Base_1.png
+LoadTexture,class323_handle_Base_1.png
 SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 1, 0
 SetTextureCoordinates,2, 1, 1
 SetTextureCoordinates,3, 0, 1
 SetEmissiveColor,60,60,60
 
-;Desk Centre
+;desk Centre
 CreateMeshBuilder
 AddVertex,-0.08, 2.375, 11.43
 AddVertex,-0.085, 2.37, 11.43
@@ -466,9 +458,8 @@ AddFace,15,18,19,16
 AddFace,16,19,20,17
 AddFace,18,21,22,19
 AddFace,19,22,23,20
-GenerateNormals
 
-LoadTexture,Class323_Desk_4.png
+LoadTexture,class323_desk_4.png
 SetTextureCoordinates,0, -0.1, 0
 SetTextureCoordinates,1, -0.1, 0.05
 SetTextureCoordinates,2, -0.1, 0.993
@@ -508,9 +499,8 @@ AddFace,0,1,3,2
 AddFace,2,3,5,4
 AddFace,0,2,4
 AddFace,1,5,3
-GenerateNormals
 
-LoadTexture,Class323_Desk_4a.png
+LoadTexture,class323_desk_4a.png
 SetTextureCoordinates,0, 0.15, 0.1
 SetTextureCoordinates,1, 0.85, 0.1
 SetTextureCoordinates,2, 0.15, 0.9
@@ -535,9 +525,8 @@ AddFace,0,1,3,2
 AddFace,2,3,5,4
 AddFace,4,5,7,6
 AddFace,6,7,9,8
-GenerateNormals
 
-LoadTexture,Class323_Desk_4.png
+LoadTexture,class323_desk_4.png
 SetTextureCoordinates,0, 0.75, 0
 SetTextureCoordinates,1, 0.9, 0
 SetTextureCoordinates,2, 0.75, 0.1
@@ -614,9 +603,8 @@ AddFace,32,33,35,34
 ;-
 AddFace,36,37,39,38
 Translate,0,0.002,0.002
-GenerateNormals
 
-LoadTexture,Class323_Desk_5.png
+LoadTexture,class323_desk_5.png
 SetTextureCoordinates,0, 0.04, 1
 SetTextureCoordinates,1, 0.09, 0.6
 SetTextureCoordinates,2, 0.09, -0.06
@@ -663,7 +651,7 @@ SetTextureCoordinates,39, 0.99, 0.1
 SetDecalTransparentColor,0,0,255
 SetEmissiveColor,60,60,60
 
-;Plate
+;plate
 CreateMeshBuilder
 AddVertex,-0.91, 2.0, 11.45
 AddVertex,0.91, 2.0, 11.45
@@ -675,9 +663,8 @@ AddFace,0,1,3,2
 AddFace,2,3,5,4
 SetColor,55,55,55
 Translate,0,0.002,0.002
-GenerateNormals
 
-LoadTexture,Plate1.png
+LoadTexture,plate1.png
 SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 23, 0
 SetTextureCoordinates,2, 0, 6
@@ -686,7 +673,7 @@ SetTextureCoordinates,4, 0, 14
 SetTextureCoordinates,5, 23, 14
 SetEmissiveColor,60,60,60
 
-;DRA
+;dra
 CreateMeshBuilder
 AddVertex,-0.668, 2.120, 11.308
 AddVertex,-0.419, 2.120, 11.308
@@ -705,9 +692,8 @@ AddFace,3,2,4,5
 AddFace,5,4,6,7
 AddFace,7,6,8,9
 AddFace,9,8,10,11
-GenerateNormals
 
-LoadTexture,Class323_DRA_1.png
+LoadTexture,class323_dra_1.png
 SetTextureCoordinates,0, 0, 0.03
 SetTextureCoordinates,1, 1, 0.03
 SetTextureCoordinates,2, 1, 0.62
@@ -743,7 +729,7 @@ SetEmissiveColor,60,60,60
 
 
 
-;Desk Right
+;desk Right
 CreateMeshBuilder
 AddVertex,0.984, 2.363, 11.485
 AddVertex,0.664, 2.363, 11.495
@@ -775,9 +761,8 @@ AddFace,5,14,13,3
 AddFace,7,15,14,5
 AddFace,9,16,15,7
 AddFace,11,17,16,9
-GenerateNormals
 
-LoadTexture,Class323_Desk_1a.png
+LoadTexture,class323_desk_1a.png
 SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 0.36, 0
 SetTextureCoordinates,2, 0, 0.06
@@ -804,9 +789,8 @@ AddVertex,0.17, 2.08, 10.888
 AddVertex,1.2, 2.08, 11.29
 AddVertex,1.2, 2.08, 10.888
 AddFace,0,2,3,1
-GenerateNormals
 
-LoadTexture,Class323_Desk_3.png
+LoadTexture,class323_desk_3.png
 SetTextureCoordinates,0, 1, 0
 SetTextureCoordinates,1, 1, 1
 SetTextureCoordinates,2, 0, 0
@@ -822,9 +806,8 @@ AddVertex,0.17, 1.98, 10.883
 AddVertex,1.20, 1.98, 10.883
 AddFace,3,2,0,1
 AddFace,5,4,2,3
-GenerateNormals
 
-LoadTexture,Class323_Desk_2.png
+LoadTexture,class323_desk_2.png
 SetTextureCoordinates,0, 2, 0.38
 SetTextureCoordinates,1, 0, 0.38
 SetTextureCoordinates,2, 2, 0.57
@@ -879,9 +862,8 @@ AddFace,12,17,18,13
 AddFace,15,19,20,16
 AddFace,16,20,21,17
 AddFace,17,21,22,18
-GenerateNormals
 
-LoadTexture,Class323_Desk_2.png
+LoadTexture,class323_desk_2.png
 SetTextureCoordinates,0, 0, 0.2
 SetTextureCoordinates,1, 0, 0.35
 SetTextureCoordinates,2, 0, 0.5
@@ -981,9 +963,8 @@ AddFace,12,13,11,10
 AddFace,14,15,13,12
 AddFace,16,17,15,14
 AddFace,18,19,17,16
-GenerateNormals
 
-LoadTexture,Class323_Cab_Side_1.png
+LoadTexture,class323_cab_side_1.png
 SetTextureCoordinates,0, 1, 0.022
 SetTextureCoordinates,1, 1, 1
 SetTextureCoordinates,2, 0.51, 0
@@ -1045,9 +1026,8 @@ AddFace,18,19,15,14
 ;AddFace,20,21,17,16
 ;AddFace,21,22,18,17
 ;AddFace,22,23,19,18
-GenerateNormals
 
-LoadTexture,Class323_Cab_Side_1a.png
+LoadTexture,class323_cab_side_1a.png
 SetTextureCoordinates,0, 0.01, 0
 SetTextureCoordinates,1, 0.48, 0
 SetTextureCoordinates,2, 0.52, 0
@@ -1077,9 +1057,8 @@ AddVertex,-1.079, 2.54, 11.17
 AddVertex,-1.095, 2.185, 11.17
 AddVertex,-1.095, 2.185, 10.94
 AddFace,0,1,2,3
-GenerateNormals
 
-LoadTexture,Class323_Side_Panel_1.png
+LoadTexture,class323_Side_Panel_1.png
 SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 1, 0
 SetTextureCoordinates,2, 1, 1
@@ -1092,9 +1071,8 @@ AddVertex,-1.044, 3.26, 11.15
 AddVertex,-1.055, 2.97, 11.15
 AddVertex,-1.055, 2.97, 10.94
 AddFace,0,1,2,3
-GenerateNormals
 
-LoadTexture,Class323_Side_Panel_2.png
+LoadTexture,class323_Side_Panel_2.png
 SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 1, 0
 SetTextureCoordinates,2, 1, 1
@@ -1107,9 +1085,8 @@ AddVertex,1.044, 3.26, 11.15
 AddVertex,1.098, 2.095, 11.17
 AddVertex,1.098, 2.095, 10.92
 AddFace,3,2,1,0
-GenerateNormals
 
-LoadTexture,Class323_Side_Panel_3.png
+LoadTexture,class323_Side_Panel_3.png
 SetTextureCoordinates,0, 1, 0
 SetTextureCoordinates,1, 0, 0
 SetTextureCoordinates,2, 0, 1
@@ -1136,9 +1113,8 @@ AddFace,1,2,8,7
 AddFace,2,3,9,8
 AddFace,3,4,10,9
 AddFace,4,5,11,10
-GenerateNormals
 
-LoadTexture,Class323_Cab_Side_1a.png
+LoadTexture,class323_cab_side_1a.png
 SetTextureCoordinates,0, 0.5, 0
 SetTextureCoordinates,1, 0.99, 0
 SetTextureCoordinates,2, 1.0, 0
@@ -1160,9 +1136,8 @@ AddVertex,0.045, 2.562, 11.428
 AddVertex,-0.055, 2.555, 11.421
 AddVertex,0.045, 2.555, 11.421
 AddFace,0,1,3,2
-GenerateNormals
 
-LoadTexture,Class323_Cab_Side_1a.png
+LoadTexture,class323_cab_side_1a.png
 SetTextureCoordinates,0, 0.51, 0
 SetTextureCoordinates,1, 0.99, 0
 SetTextureCoordinates,2, 0.51, 0.1
@@ -1211,9 +1186,8 @@ AddFace,10,12,18,16
 AddFace,12,13,19,18
 AddFace,13,11,17,19
 AddFace,11,9,15,17
-GenerateNormals
 
-LoadTexture,Class323_Cab_Side_1a.png
+LoadTexture,class323_cab_side_1a.png
 SetTextureCoordinates,0, 0.51, 0
 SetTextureCoordinates,1, 0.99, 0
 SetTextureCoordinates,2, 0.51, 0.1
@@ -1244,16 +1218,15 @@ AddVertex,0.038, 2.53, 11.351
 AddVertex,0.038, 2.38, 11.351
 AddVertex,-0.046, 2.38, 11.351
 AddFace,0,1,2,3
-GenerateNormals
 
-LoadTexture,Class323_Cab_1.png
+LoadTexture,class323_cab_1.png
 SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 1, 0
 SetTextureCoordinates,2, 1, 1
 SetTextureCoordinates,3, 0, 1
 SetEmissiveColor,60,60,60
 
-;Destination Display
+;destination display
 CreateMeshBuilder
 AddVertex,0.06, 3.4, 11.48
 AddVertex,0.06, 3.4, 11.325
@@ -1281,9 +1254,8 @@ AddFace,5,6,10,9
 AddFace,6,7,11,10
 
 AddFace,8,9,10,11,12
-GenerateNormals
 
-LoadTexture,Class323_DestinationDisplay_1.png
+LoadTexture,class323_destinationdisplay_1.png
 SetTextureCoordinates,0, 0.00, 0
 SetTextureCoordinates,1, 0.06, 0
 SetTextureCoordinates,2, 0.07, 0
@@ -1325,9 +1297,8 @@ AddFace,10,11,9,8
 AddFace,12,13,11,10
 AddFace,11,13,15,9
 setcolor,50,50,50
-GenerateNormals
 
-LoadTexture,Class323_Desk_3.png
+LoadTexture,class323_desk_3.png
 SetTextureCoordinates,0, 0.2, 0
 SetTextureCoordinates,1, 0.8, 0
 SetTextureCoordinates,2, 0.2, 0.5
@@ -1358,9 +1329,8 @@ AddVertex,-0.04, 3.01, 11.38
 AddFace,0,1,3,2
 AddFace,2,3,5,4
 SetColor,130,130,130
-GenerateNormals
 
-LoadTexture,..\Class323_Roof_1a.png
+LoadTexture,..\ext_view\class323_Roof_1a.png
 SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 3, 0
 SetTextureCoordinates,2, 0, 0.3
@@ -1380,9 +1350,8 @@ AddVertex,0.93, 2.89, 11.397
 AddFace,0,1,3,2
 AddFace,2,3,5,4
 SetColor,130,130,130
-GenerateNormals
 
-LoadTexture,..\Class323_Roof_1a.png
+LoadTexture,..\ext_view\class323_Roof_1a.png
 SetTextureCoordinates,0, 0, 0.2
 SetTextureCoordinates,1, 3, 0.2
 SetTextureCoordinates,2, 0, 0.3
@@ -1426,9 +1395,8 @@ AddFace,8,9,15,14
 AddFace,9,10,16,15
 AddFace,10,11,17,16
 SetEmissiveColor,225,220,200
-GenerateNormals
 
-LoadTexture,Class323_Interior_Cab_Ceiling_1.png
+LoadTexture,class323_interior_Cab_Ceiling_1.png
 SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 0.2, 0
 SetTextureCoordinates,2, 0.4, 0
@@ -1452,7 +1420,7 @@ SetTextureCoordinates,17, 1, 1
 
 TranslateAll,0,0,0.09
 
-;Interior Lights
+;interior Lights
 CreateMeshBuilder
 AddVertex,-0.36, 3.58, 10.035
 AddVertex,-0.36, 3.53, 10.035
@@ -1481,9 +1449,8 @@ AddFace,13,14,10,9
 AddFace,14,15,11,10
 AddFace,15,14,13,12
 SetEmissiveColor,225,220,200
-GenerateNormals
 
-LoadTexture,..\Class323_Interior_Light_1_On.png
+LoadTexture,..\ext_view\class323_interior_Light_1_On.png
 SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 0.2, 0
 SetTextureCoordinates,2, 0.8, 0
@@ -1567,9 +1534,8 @@ AddFace,26,27,25,24
 AddFace,28,29,27,26
 AddFace,30,31,29,28
 SetColor,200,200,200
-GenerateNormals
 
-LoadTexture,Class323_Cab_Side_1.png
+LoadTexture,class323_cab_side_1.png
 SetTextureCoordinates,0, 0, 0.00
 SetTextureCoordinates,1, 0, 0.42
 SetTextureCoordinates,2, 0, 0.45
@@ -1635,9 +1601,8 @@ AddFace,9,13,12,8
 AddFace,10,14,13,9
 AddFace,11,15,14,10
 SetEmissiveColor,225,220,200
-GenerateNormals
 
-LoadTexture,Class323_Interior_Cab_Ceiling_1.png
+LoadTexture,class323_interior_Cab_Ceiling_1.png
 SetTextureCoordinates,0, 0, 0.002
 SetTextureCoordinates,1, 0, 0.5
 SetTextureCoordinates,2, 0, 0.6
@@ -1688,9 +1653,8 @@ AddFace,14,15,13,12
 
 AddFace,14,12,10,8
 SetEmissiveColor,120,120,120
-GenerateNormals
 
-LoadTexture,..\centro\Class323_Interior_Texture_1.png
+LoadTexture,..\ext_view\centro\class323_interior_Texture_1.png
 SetTextureCoordinates,0, -0.21, 0
 SetTextureCoordinates,1, 0.795, 0
 SetTextureCoordinates,2, -0.21, 0.2
@@ -1729,9 +1693,8 @@ AddFace,6,7,9,8
 SetColor,120,120,120
 SetEmissiveColor,85,80,60
 Translate,-0.600, 0, 10.4
-GenerateNormals
 
-LoadTexture,..\centro\Class323_Seat_2.png
+LoadTexture,..\ext_view\centro\class323_Seat_2.png
 SetTextureCoordinates,0, 0, 0.001
 SetTextureCoordinates,1, 1, 0.001
 SetTextureCoordinates,2, 0, 0.45
@@ -1790,9 +1753,8 @@ AddFace,24,26,27,25
 SetColor,120,120,120
 SetEmissiveColor,85,80,60
 Translate,-0.600, 0, 10.4
-GenerateNormals
 
-LoadTexture,..\centro\Class323_Seat_Side.png
+LoadTexture,..\ext_view\centro\class323_Seat_Side.png
 SetTextureCoordinates,0, 0.001, 0.001
 SetTextureCoordinates,1, 0.001, 0.999
 SetTextureCoordinates,2, 0.24, 0.001
@@ -1852,9 +1814,8 @@ AddFace,6,7,9,8
 SetColor,120,120,120
 SetEmissiveColor,85,80,60
 Translate,0.600, 0, 10.4
-GenerateNormals
 
-LoadTexture,..\centro\Class323_Seat_2.png
+LoadTexture,..\ext_view\centro\class323_Seat_2.png
 SetTextureCoordinates,0, 0, 0.001
 SetTextureCoordinates,1, 1, 0.001
 SetTextureCoordinates,2, 0, 0.45
@@ -1913,9 +1874,8 @@ AddFace,24,26,27,25
 SetColor,120,120,120
 SetEmissiveColor,85,80,60
 Translate,0.600, 0, 10.4
-GenerateNormals
 
-LoadTexture,..\centro\Class323_Seat_Side.png
+LoadTexture,..\ext_view\centro\class323_Seat_Side.png
 SetTextureCoordinates,0, 0.001, 0.001
 SetTextureCoordinates,1, 0.001, 0.999
 SetTextureCoordinates,2, 0.24, 0.001
@@ -1977,10 +1937,10 @@ SetDecalTransparentColor,0,0,255
 SetEmissiveColor,60,60,60
 
 CreateMeshBuilder
-AddVertex,-0.789,2.310,11.484
-AddVertex,-0.687,2.310,11.489
-AddVertex,-0.687,2.217,11.444
-AddVertex,-0.789,2.217,11.438
+AddVertex,-0.792,2.310,11.484
+AddVertex,-0.690,2.310,11.489
+AddVertex,-0.690,2.217,11.444
+AddVertex,-0.792,2.217,11.438
 AddFace,0,1,2,3
 
 LoadTexture,brake_back.png,brake_back_n.png
@@ -2045,7 +2005,7 @@ Rotate,1,0,0,90
 Rotate,0,0,1,220
 Translate,-0.005,2.427,11.438
 
-LoadTexture,Class323_Handle_1.png
+LoadTexture,class323_handle_1.png
 SetTextureCoordinates,0, 0.0, 0
 SetTextureCoordinates,1, 0.0, 2
 SetTextureCoordinates,2, 0.3, 0
@@ -2073,7 +2033,7 @@ Rotate,1,0,0,90
 Rotate,0,0,1,240
 Translate,-0.005,2.427,11.42
 
-LoadTexture,Class323_Handle_1.png
+LoadTexture,class323_handle_1.png
 SetTextureCoordinates,0, 0.0, 0
 SetTextureCoordinates,1, 0.0, 2
 SetTextureCoordinates,2, 0.3, 0
@@ -2098,7 +2058,7 @@ AddVertex,-0.024,-0.024,0
 AddFace,0,1,2,3
 Translate,-0.005,2.427,11.403
 
-LoadTexture,Class323_Red_Button_1.png
+LoadTexture,class323_Red_Button_1.png
 SetTextureCoordinates,0, 0.001, 0.001
 SetTextureCoordinates,1, 0.999, 0.001
 SetTextureCoordinates,2, 0.999, 0.999
@@ -2115,7 +2075,7 @@ Rotate,0,0,1,90
 Rotate,1,0,0,90
 Translate,-1.080,2.405,11.215
 
-LoadTexture,Class323_Handle_1.png
+LoadTexture,class323_handle_1.png
 SetTextureCoordinates,0, 0.0, 0
 SetTextureCoordinates,1, 0.0, 2
 SetTextureCoordinates,2, 0.3, 0
@@ -2143,7 +2103,7 @@ Rotate,0,0,1,90
 Rotate,1,0,0,220
 Translate,-1.069,2.405,11.215
 
-LoadTexture,Class323_Handle_1.png
+LoadTexture,class323_handle_1.png
 SetTextureCoordinates,0, 0.0, 0
 SetTextureCoordinates,1, 0.0, 2
 SetTextureCoordinates,2, 0.3, 0
@@ -2169,7 +2129,7 @@ AddFace,0,1,2,3
 Rotate,0,1,0,-90
 Translate,-1.053,2.405,11.215
 
-LoadTexture,Class323_Red_Button_1.png
+LoadTexture,class323_Red_Button_1.png
 SetTextureCoordinates,0, 0.001, 0.001
 SetTextureCoordinates,1, 0.999, 0.001
 SetTextureCoordinates,2, 0.999, 0.999
