@@ -3,7 +3,7 @@ Cylinder,10,0.01,0.01,0.015
 Rotate,1,0,0,-63
 Translate,-0.343,2.180,11.420
 
-LoadTexture,Class323_Handle_1.png
+LoadTexture,class323_handle_1.png
 SetTextureCoordinates,0, 0.0, 0
 SetTextureCoordinates,1, 0.0, 1
 SetTextureCoordinates,2, 0.2, 0

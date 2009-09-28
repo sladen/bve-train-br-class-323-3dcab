@@ -3,7 +3,7 @@ Cylinder,6,0.004,0.004,0.14
 Translate,0,-0.02,0
 Rotate,0,1,0,180
 
-LoadTexture,Class323_Handle_1.png
+LoadTexture,class323_handle_1.png
 SetTextureCoordinates,0, 0.0, 0
 SetTextureCoordinates,1, 0.0, 2
 SetTextureCoordinates,2, 0.3, 0
@@ -23,7 +23,7 @@ Cylinder,6,0.007,0.007,0.013
 Translate,0,0.048,0
 Rotate,0,1,0,180
 
-LoadTexture,Class323_Reverser_Handle.png
+LoadTexture,class323_reverser_handle.png
 SetTextureCoordinates,0, 0.30, 0.85
 SetTextureCoordinates,1, 0.30, 1
 SetTextureCoordinates,2, 0.55, 0.85
@@ -100,7 +100,7 @@ AddFace2,21,32,22,1
 AddFace,0,2,4,6,8,10,12,14,16,18,20
 AddFace,32,31,30,29,28,27,26,25,24,23,22
 
-LoadTexture,Class323_Reverser_Handle.png
+LoadTexture,class323_reverser_handle.png
 SetTextureCoordinates,0, 0.0, 0.00
 SetTextureCoordinates,1, 0.76, 0.00
 SetTextureCoordinates,2, 0.0, 0.30
