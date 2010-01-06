@@ -1,2 +1,5 @@
 # Check http://railsimroutes.net/blog/
-# but the 7z archives are unversioned.
+# the 7z archive is number with two-digit years in European style
+version=3
+opts="uversionmangle=s/(\d\d)-(\d\d)-(\d\d)/20$3$2$1/" \
+  http://railsimroutes.net/x-city_south/downloads.html ../trains/downloads/323_unrefurb_3d_cab_([-\d]+)\.7z
