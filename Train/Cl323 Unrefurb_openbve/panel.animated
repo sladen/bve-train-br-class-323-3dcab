@@ -1,6 +1,10 @@
 [object]
 states = 3d_cab\class323_dmso_cab_interior_Common.csv
 
+;[Object]
+;States = 3d_cab\timetable.csv
+;textureoverride = timetable
+
 [object]
 states = 3d_cab\class323_dmso_cab_interior_Lights_On.csv,3d_cab\class323_dmso_cab_interior_Lights_Off.csv
 statefunction = if[hasPlugin == 1, !pluginstate[30], 0]
