@@ -8,14 +8,19 @@ Upstream authors:
   Anthony Bowden <anthony-b@railsimroutes.net>
 
 Copyright:
-  Copyright      2009 Anthony Bowden
+  Copyright 2009-2010 Anthony Bowden
   Copyright 2009-2010 Paul Sladen (Debian packaging)
 
-  From 'Train/Cl323 Unrefurb_openbve/Readme_3DCab.txt':
+  From 'Train/BR_Class_323/Readme_3DCab.txt':
 
     Licence
     -------
 
-    This add-on has been released into the Public Domain.
+    This add-on has been released into the public domain.
+    However, if this isn't legally possible, then no
+    conditions, restrictions or requirements are placed
+    upon the use, modification or redistribution of this
+    add-on. I would be grateful for acknowledgement, but
+    this isn't required.
 
   Any Debian-packaging additions are hereby placed into the Public Domain.
