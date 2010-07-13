@@ -8,7 +8,7 @@ DOCTARGET = $(TARGET)/usr/share/doc/bve-train-br-class-323-3dcab
 BVETARGET = $(TARGET)/usr/share/games/bve
 
 # Components
-TRAINDIR = Train/Cl323\ Unrefurb_openbve
+TRAINDIR = Train/BR_Class_323
 README = Readme_3DCab.txt
 
 # Renamed to something Nicer
