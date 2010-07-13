@@ -28,11 +28,17 @@ Please note that this 3D cab isn’t finished yet, and various details are missing
 
 More updates will follow later.
 
-Licence
--------
+Also, this 3D cab can have BVE4 style timetable textures displayed on a dedicated mesh within the cab, when used with openBVE 1.2.7.0 or greater. However, this feature is disabled by default, so the timetable texture is shown as a part of openBVE's in-game UI instead. If you want to experiment with this feature, please uncomment the following lines near the top of the panel.animated file:
 
-This add-on has been released into the Public Domain.
+;[Object]
+;States = 3d_cab\timetable.csv
+;textureoverride = timetable
+
+Usage
+-----
+
+This add-on has been released into the public domain. However, if this isn't legally possible, then no conditions, restrictions or requirements are placed upon the use, modification or redistribution of this add-on. I would be grateful for acknowledgement, but this isn't required.
 
 ==============
 Anthony Bowden
-August, 2009
+July, 2010

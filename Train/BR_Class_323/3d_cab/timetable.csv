@@ -1,0 +1,12 @@
+CreateMeshBuilder
+AddVertex,-0.35,2.9,11.52
+AddVertex,-0.06,2.9,11.52
+AddVertex,-0.06,2.6,11.52
+AddVertex,-0.35,2.6,11.52
+AddFace,0,1,2,3
+
+LoadTexture,class323_cab_window_surround.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
