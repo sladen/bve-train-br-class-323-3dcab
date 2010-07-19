@@ -1,9 +1,9 @@
 [object]
 states = 3d_cab\class323_dmso_cab_interior_Common.csv
 
-;[Object]
-;States = 3d_cab\timetable.csv
-;textureoverride = timetable
+[Object]
+States = 3d_cab\timetable.csv
+textureoverride = timetable
 
 [object]
 states = 3d_cab\class323_dmso_cab_interior_Lights_On.csv,3d_cab\class323_dmso_cab_interior_Lights_Off.csv
@@ -36,55 +36,53 @@ rotateyfunction = -0.3
 [object]
 states = 3d_cab\proofhead_on.csv
 position = 0, 0, 0
-TextureShiftYFunction = pluginstate[22] * 0.25
+TextureShiftYFunction = if[hasPlugin == 1, pluginstate[22], Ceiling[ 0.5 * reverserNotch] * (Floor[Mod[(time + 64800) / 43200, 2]]*2+1)] * 0.25
 
 [object]
 states = 3d_cab\prooftail_on.csv
 position = 0, 0, 0
-TextureShiftYFunction = pluginstate[23] * 0.5
+TextureShiftYFunction = if[hasPlugin == 1, pluginstate[23], Ceiling[-0.5 * reverserNotch]] * 0.5
 
 [object]
 states = 3d_cab\switchhead.csv,3d_cab\switchhead_dark.csv
 position = 0, 0, 0
 statefunction = if[hasPlugin == 1, !pluginstate[30], 0]
-TextureShiftYFunction = pluginstate[22] * 0.25
+TextureShiftYFunction = if[hasPlugin == 1, pluginstate[22], Ceiling[ 0.5 * reverserNotch] * (Floor[Mod[(time + 64800) / 43200, 2]]*2+1)] * 0.25
 
 [object]
 states = 3d_cab\switchtail.csv,3d_cab\switchtail_dark.csv
 position = 0, 0, 0
 statefunction = if[hasPlugin == 1, !pluginstate[30], 0]
-TextureShiftYFunction = pluginstate[23] * 0.5
-
-
+TextureShiftYFunction = if[hasPlugin == 1, pluginstate[23], Ceiling[-0.5 * reverserNotch]] * 0.5
 
 [object]
 states = 3d_cab\linebatt_on.csv
 position = 0, 0, 0
-TextureShiftYFunction = pluginstate[31] * 0.5
+TextureShiftYFunction = if[hasPlugin == 1, pluginstate[31], 1] * 0.5
 
 [object]
 states = 3d_cab\cb_on.csv
 position = 0, 0, 0
-TextureShiftYFunction = pluginstate[33] * 0.5
+TextureShiftYFunction = if[hasPlugin == 1, pluginstate[33], 0] * 0.5
 
 [object]
 states = 3d_cab\haz_on.csv
 position = 0, 0, 0
-TextureShiftYFunction = pluginstate[14] * 0.5
+TextureShiftYFunction = if[hasPlugin == 1, pluginstate[14], Ceiling[doors]] * 0.5
 
 
 
 [object]
 states = 3d_cab\aws_sunflower.csv,3d_cab\aws_sunflower_dark.csv
 position = 0, 0, 0
-statefunction = if[pluginstate[30], !pluginstate[7], 1]
+statefunction = if[hasPlugin == 1, if[pluginstate[30], !pluginstate[7], 1], section >= 3]
 
 
 
 [object]
 states = 3d_cab\aws_sunflower_black.csv
 position = 0, 0, 0
-statefunction = !pluginstate[6]
+statefunction = if[hasPlugin == 1, !pluginstate[6], section < 3]
 
 [object]
 states = 3d_cab\aws_button.csv
@@ -101,7 +99,7 @@ TextureShiftYFunction = pluginstate[13] * 0.5
 [object]
 states = 3d_cab\interlock.csv
 position = 0, 0, 0
-TextureShiftYFunction = pluginstate[14] * 0.5
+TextureShiftYFunction = if[hasPlugin == 1, pluginstate[14], Ceiling[doors]] * 0.5
 
 [object]
 states = 3d_cab\tpws_brake.csv
@@ -123,15 +121,15 @@ states = 3d_cab\radio.csv
 position = 0, 0, 0
 statefunction = !pluginstate[30]
 
-[object]
-states = 3d_cab\destination_display_1a.csv
-position = 0, 0, 0
-statefunction = !pluginstate[30]
+;[object]
+;states = 3d_cab\destination_display_1a.csv
+;position = 0, 0, 0
+;statefunction = !pluginstate[30]
 
 [object]
 states = 3d_cab\destination_display_1a.csv
 position = 0, 0, 0
-statefunction = !pluginstate[30]
+statefunction = if[hasPlugin == 1, !pluginstate[30], 1]
 
 
 
@@ -167,12 +165,14 @@ rotatezfunction = -1.57
 [object]
 states = 3d_cab\ext_headlight_1.csv, 3d_cab\ext_headlight_1a.csv, 3d_cab\ext_headlight_1b.csv
 position = 0, 0, 0
-statefunction = if[pluginstate[30], if[pluginstate[20] > 0, pluginstate[20] - 1, -1], -1]
+statefunction = if[hasPlugin == 1, pluginstate[22], Ceiling[ 0.5 * reverserNotch] * (Floor[Mod[(time + 64800) / 43200, 2]]*2+1)]
+;statefunction = if[hasPlugin == 1, if[pluginstate[30], if[pluginstate[20] > 0, pluginstate[20] - 1, -1], -1], Ceiling[ 0.5 * reverserNotch] * (Floor[Mod[(time + 64800) / 1, 4]])]
+
 
 [object]
 states = 3d_cab\ext_taillight_1.csv
 position = 0, 0, 0
-statefunction = if[pluginstate[30], if[pluginstate[21] > 0, 0, -1], -1]
+statefunction = if[hasPlugin == 1, if[pluginstate[30], if[pluginstate[21] > 0, 0, -1], -1], !Ceiling[-0.5 * reverserNotch]]
 
 
 [object]
