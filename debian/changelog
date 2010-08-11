@@ -1,6 +1,7 @@
 bve-train-br-class-323-3dcab (20100711-0ubuntu1) UNRELEASED; urgency=low
 
-  * New upstream version (20100711)
+  * New upstream version (20100711) ... only commented out changes!
+  * Patch so that cab controls show approximation of state without plugin
 
  -- Paul Sladen <ubuntu@paul.sladen.org>  Tue, 13 Jul 2010 22:10:00 +0100
 
