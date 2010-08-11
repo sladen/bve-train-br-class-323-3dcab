@@ -1,36 +1,12 @@
 CreateMeshBuilder
-AddVertex,-0.05, 0.14,0
-AddVertex, 0.24, 0.14,0
-AddVertex, 0.24,-0.14,0
-AddVertex,-0.05,-0.14,0
+AddVertex,-0.35,2.9,11.52
+AddVertex,-0.06,2.9,11.52
+AddVertex,-0.06,2.6,11.52
+AddVertex,-0.35,2.6,11.52
 AddFace,0,1,2,3
-Translate,-0.01,0,0
-Scale,1.34,1.14,1
 
-;LoadTexture,class323_cab_window_surround.png
-LoadTexture,/usr/share/games/bve/Railway/Object/Bham_X-City_South/X-CitySouth_1_3/Timetables/323_2002_1931/X-CitySouth_TT_10.bmp
+LoadTexture,class323_cab_window_surround.png
 SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 1, 0
 SetTextureCoordinates,2, 1, 1
 SetTextureCoordinates,3, 0, 1
-
-CreateMeshBuilder
-AddVertex,-0.15, 0.17,0.01
-AddVertex, 0.35, 0.17,0.01
-AddVertex, 0.35,-0.17,0.01
-AddVertex,-0.15,-0.17,0.01
-AddFace,0,1,2,3
-SetColor,30,50,100,255
-
-CreateMeshBuilder
-AddVertex,-0.13, 0.12,-0.001
-AddVertex,-0.10, 0.12,-0.001
-AddVertex,-0.10,-0.12,-0.001
-AddVertex,-0.13,-0.12,-0.001
-AddFace,0,1,2,3
-SetColor,150,150,160,255
-
-RotateAll,1,0,0,10
-RotateAll,0,1,0,25
-;TranslateAll,-0.248,2.468,11.578
-TranslateAll,-0.34,2.5445,11.45
