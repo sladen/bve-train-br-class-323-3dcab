@@ -1,9 +1,9 @@
 [object]
 states = 3d_cab\class323_dmso_cab_interior_Common.csv
 
-[Object]
-States = 3d_cab\timetable.csv
-textureoverride = timetable
+;[Object]
+;States = 3d_cab\timetable.csv
+;textureoverride = timetable
 
 [object]
 states = 3d_cab\class323_dmso_cab_interior_Lights_On.csv,3d_cab\class323_dmso_cab_interior_Lights_Off.csv
@@ -54,6 +54,8 @@ states = 3d_cab\switchtail.csv,3d_cab\switchtail_dark.csv
 position = 0, 0, 0
 statefunction = if[hasPlugin == 1, !pluginstate[30], 0]
 TextureShiftYFunction = if[hasPlugin == 1, pluginstate[23], Ceiling[-0.5 * reverserNotch]] * 0.5
+
+
 
 [object]
 states = 3d_cab\linebatt_on.csv
@@ -167,7 +169,6 @@ states = 3d_cab\ext_headlight_1.csv, 3d_cab\ext_headlight_1a.csv, 3d_cab\ext_hea
 position = 0, 0, 0
 statefunction = if[hasPlugin == 1, pluginstate[22], Ceiling[ 0.5 * reverserNotch] * (Floor[Mod[(time + 64800) / 43200, 2]]*2+1)]
 ;statefunction = if[hasPlugin == 1, if[pluginstate[30], if[pluginstate[20] > 0, pluginstate[20] - 1, -1], -1], Ceiling[ 0.5 * reverserNotch] * (Floor[Mod[(time + 64800) / 1, 4]])]
-
 
 [object]
 states = 3d_cab\ext_taillight_1.csv
