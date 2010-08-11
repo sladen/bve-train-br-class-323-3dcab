@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
 XSBC-Original-Maintainer: Paul Sladen <ubuntu@paul.sladen.org>
 Build-Depends: debhelper (>= 5)
-Standards-Version: 3.8.0
+Standards-Version: 3.8.4
 Vcs-Browser: http://github.com/sladen/bve-train-br-class-323-3dcab/tree/debian
 Vcs-Git: http://github.com/sladen/bve-train-br-class-323-3dcab.git
 Homepage: http://railsimroutes.net/blog/?p=886
