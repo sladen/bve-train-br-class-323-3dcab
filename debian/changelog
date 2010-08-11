@@ -1,9 +1,9 @@
-bve-train-br-class-323-3dcab (20100711-0ubuntu1) UNRELEASED; urgency=low
+bve-train-br-class-323-3dcab (20100711-0ubuntu1) maverick; urgency=low
 
   * New upstream version (20100711) ... only commented out changes!
   * Patch so that cab controls show approximation of state without plugin
 
- -- Paul Sladen <ubuntu@paul.sladen.org>  Tue, 13 Jul 2010 22:10:00 +0100
+ -- Paul Sladen <ubuntu@paul.sladen.org>  Wed, 12 Aug 2010 00:53:00 +0100
 
 bve-train-br-class-323-3dcab (20090928-0ubuntu1) lucid; urgency=low
 
